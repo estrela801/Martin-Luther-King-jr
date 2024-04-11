@@ -18,10 +18,11 @@ header{
 ul{
     display: flex;
     flex-flow: row wrap;
-    
-    line-height: 20px;
-    
+    align-content: center;
+    line-height: 50px;
+    gap: 10px;
 }
+
 ul > li > a{text-decoration: none;}
 img{
     position: relative;
@@ -50,15 +51,19 @@ p{
     padding: 0 20px 20px 20px;
 }
 
-a{
-    color: rgb(94, 255, 0);
+li>a{
+    color: rgb(255, 255, 255);
     padding-left: 30px;
+    
+    border:2px solid rgb(0, 0, 0);
+    padding: auto;
+    
 }
 a:visited{
-    color: rgb(94, 255, 0);
+     
 }
 a:hover{
-    color: rgb(255, 255, 194);
+    color: rgb(82, 243, 61);
     transition: 1s;
 }
 
@@ -93,4 +98,7 @@ a:hover{
 
 footer{
     background-color: rgb(131, 132, 133);
+}
+footer > a {
+    width: inherit;
 }
