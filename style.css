@@ -20,22 +20,7 @@ header{
     background-color: rgb(68, 28, 28);
     width: 100%;
 }
-ul{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    line-height: 50px;
-    gap: 10px;
-}
 
-ul > li > a{text-decoration: none;}
-img{
-    position: relative;
-    
-    /* height: 150px; */
-    width:200px;
-    margin: 15px 0 15px;
-}
 hr{
     color: black;
 }
@@ -55,12 +40,25 @@ p{
     line-height: 20px;
     padding: 0 20px 20px 20px;
 }
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    line-height: 50px;
+    gap: 10px;
+}
 
+ul > li > a{text-decoration: none;}
+img{
+    position: relative;
+    width:200px;
+    margin: 15px 0 15px;
+}
 li >a{
     color: rgb(255, 255, 255);
     padding-left: 30px;
     
-    border:2px solid rgb(0, 0, 0);
+    background-color: black;
     padding: auto;
     
 }
@@ -73,6 +71,14 @@ a:hover{
 .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, footer{
          border-radius: 10px;
          margin: 10px 30px;
+}
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, footer:hover{
+    
+    transform:scaleX(1.1) scale(1.1);
+    flex-grow: 1;
+    margin: 30px 20px;
+    
+    width: 300px;
 }
 .um{
     background-color: rgb(99, 99, 255);
@@ -105,10 +111,22 @@ footer{
 footer > a {
     width: inherit;
 }
-.meio-tela{
-     animation: meio 1s linear;
+section{
+     animation: aparecer 2s linear forwards;
+     animation-timeline: view() ;
+     animation-range:cover 0% cover 25% ;
 }
 
-@keyframes meio {
-    transform
-}
+@keyframes aparecer {
+    from{
+        transform: translateX(-120%);
+        
+        
+    }
+    to{
+        transform: translateX(0);
+        
+        
+    }
+    
+} 
