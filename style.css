@@ -105,3 +105,10 @@ footer{
 footer > a {
     width: inherit;
 }
+.meio-tela{
+     animation: meio 1s linear;
+}
+
+@keyframes meio {
+    transform
+}
