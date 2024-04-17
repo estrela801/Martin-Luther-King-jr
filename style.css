@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
-
+:root{
+  scroll-behavior: smooth;
+}
 body {
   /* background-color: rgb(38, 69, 109); */
   background-color: rgb(68, 28, 28);
@@ -13,11 +15,7 @@ body {
   text-align: center;
   /* text-align: center; */
 }
-header {
-  background-image: src(
-    "https://imgs.search.brave.com/iphYOGnOdX8y2TiktOnOSTQCEjbIwKuSC7BYLSiB8Mo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubXVuZG9lZHVj/YWNhby51b2wuY29t/LmJyL211bmRvZWR1/Y2FjYW8vMjAyMS8w/MS9tYXJ0aW4tbHV0/aGVyLmpwZw"
-  );
-}
+
 .fundo {
   background-color: rgb(68, 28, 28);
   width: 100%;
@@ -158,8 +156,8 @@ footer:hover {
 .quatorze {
   background-color: rgb(131, 132, 133);
   margin-bottom: 300px;
- border-radius: 10px;
- max-width: 350px;
+  border-radius: 10px;
+  width: 350px;
   /* margin: 10px 30px; */
 }
 .quatorze > a {
@@ -169,7 +167,17 @@ footer:hover {
 section {
   animation: aparecer 2s linear forwards;
   animation-timeline: view();
-  animation-range: cover 10% cover 25%;
+  animation-range: cover 30% cover 30%;
+  
+}
+.voltaTopo{
+     width: 30px;
+     height: 700px;
+     background-color: rgb(80, 13, 13);
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     padding: 20px;
 }
 
 @keyframes aparecer {
