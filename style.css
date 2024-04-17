@@ -185,7 +185,13 @@ section {
      bottom: 30px;
      border-radius: 20px;
      opacity: .7;
+     
 }
+/* .voltaTopo:active{
+  transform: scale(1.10);
+  background-color: rgb(114, 24, 24); ;
+} */
+
 
 @keyframes aparecer {
   from {
