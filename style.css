@@ -1,132 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 
+body {
+  /* background-color: rgb(38, 69, 109); */
+  background-color: rgb(68, 28, 28);
+  margin: 10px;
+  background-image: src(
+    "https://imgs.search.brave.com/iphYOGnOdX8y2TiktOnOSTQCEjbIwKuSC7BYLSiB8Mo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubXVuZG9lZHVj/YWNhby51b2wuY29t/LmJyL211bmRvZWR1/Y2FjYW8vMjAyMS8w/MS9tYXJ0aW4tbHV0/aGVyLmpwZw"
+  );
+  font-family: "Tilt Neon", sans-serif;
+  color: rgb(255, 255, 255);
 
-body{
-    /* background-color: rgb(38, 69, 109); */
-    background-color: rgb(68, 28, 28);
-    margin: 10px;
-    background-image: src("https://imgs.search.brave.com/iphYOGnOdX8y2TiktOnOSTQCEjbIwKuSC7BYLSiB8Mo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubXVuZG9lZHVj/YWNhby51b2wuY29t/LmJyL211bmRvZWR1/Y2FjYW8vMjAyMS8w/MS9tYXJ0aW4tbHV0/aGVyLmpwZw");
-    font-family: "Tilt Neon", sans-serif;
-    color: rgb(255, 255, 255);
-
-    text-align: center;
-    /* text-align: center; */
-    
+  text-align: center;
+  /* text-align: center; */
 }
-header{
-    background-image: src("https://imgs.search.brave.com/iphYOGnOdX8y2TiktOnOSTQCEjbIwKuSC7BYLSiB8Mo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubXVuZG9lZHVj/YWNhby51b2wuY29t/LmJyL211bmRvZWR1/Y2FjYW8vMjAyMS8w/MS9tYXJ0aW4tbHV0/aGVyLmpwZw")
+header {
+  background-image: src(
+    "https://imgs.search.brave.com/iphYOGnOdX8y2TiktOnOSTQCEjbIwKuSC7BYLSiB8Mo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubXVuZG9lZHVj/YWNhby51b2wuY29t/LmJyL211bmRvZWR1/Y2FjYW8vMjAyMS8w/MS9tYXJ0aW4tbHV0/aGVyLmpwZw"
+  );
 }
-.fundo{
-    background-color: rgb(68, 28, 28);
-    width: 100%;
-}
-
-hr{
-    color: black;
-}
-h1{
-    font-size: 45px;
-    margin: 20px 0;
-    padding: 10px 8px;
-}
-h2{
-    font-size: 32px;
-    padding: 8px 6px ;
-    margin: 10px;
+.fundo {
+  background-color: rgb(68, 28, 28);
+  width: 100%;
 }
 
-p{
-    font-size: 16px;
-    line-height: 20px;
-    padding: 0 20px 20px 20px;
+hr {
+  color: black;
 }
-ul{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    line-height: 50px;
-    gap: 10px;
+h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  padding: 10px 8px;
 }
-
-ul > li > a{text-decoration: none;}
-img{
-    position: relative;
-    width:200px;
-    margin: 15px 0 15px;
-}
-li >a{
-    color: rgb(255, 255, 255);
-    padding-left: 30px;
-    
-    background-color: black;
-    padding: auto;
-    
+h2 {
+  font-size: 32px;
+  padding: 8px 6px;
+  margin: 10px;
 }
 
-a:hover{
-    color: rgb(82, 243, 61);
-    transition: 1s;
+p {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 20px 20px 20px;
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  line-height: 50px;
+  gap: 10px;
 }
 
-.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, footer{
-         border-radius: 10px;
-         margin: 10px 30px;
+ul > .li > li > a {
+  text-decoration: none;
 }
-.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, footer:hover{
-    
-    transform:scaleX(1.1) scale(1.1);
-    flex-grow: 1;
-    margin: 30px 20px;
-    
-    width: 300px;
+img {
+  position: relative;
+  width: 200px;
+  margin: 15px 0 15px;
 }
-.um{
-    background-color: rgb(99, 99, 255);
+.li {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(134, 47, 47);
+  height: 30px;
+  align-items: center;
+  padding-right: 30px;
 }
-.dois{
-    background-color: rgb(1, 214, 214);
-}
-.tres{
-    background-color: rgb(231, 160, 160) ;
-}
-.quatro{
-    background-color: dimgray;
-}
-.cinco{
-    background-color: rgb(158, 228, 126);
-}
-.seis{background-color: rgb(0, 247, 255);}
-.sete{background-color: rgb(81, 165, 42);}
-.oito{background-color: rgb(35, 0, 163);}
-.nove{
-    background-color: rgb(241, 160, 54);
-}
-.dez{
-    background-color: rgb(223, 34, 34);
+li > a {
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+  padding: auto;
 }
 
-footer{
-    background-color: rgb(131, 132, 133);
+a:hover {
+  color: rgb(82, 243, 61);
+  transition: 1s;
+}
+
+.um,
+.dois,
+.tres,
+.quatro,
+.cinco,
+.seis,
+.sete,
+.oito,
+.nove,
+.dez,
+.onze,
+.doze,
+.treze,
+footer {
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+.um,
+.dois,
+.tres,
+.quatro,
+.cinco,
+.seis,
+.sete,
+.oito,
+.nove,
+.dez,
+.onze,
+.doze,
+.treze,
+footer:hover {
+  transform: scaleX(1.1) scale(1.1);
+  flex-grow: 1;
+  margin: 30px 20px;
+
+  width: 300px;
+}
+.um {
+  background-color: rgb(99, 99, 255);
+}
+.dois {
+  background-color: rgb(1, 214, 214);
+}
+.tres {
+  background-color: rgb(231, 160, 160);
+}
+.quatro {
+  background-color: dimgray;
+}
+.cinco {
+  background-color: rgb(158, 228, 126);
+}
+.seis {
+  background-color: rgb(0, 133, 138);
+}
+.sete {
+  background-color: rgb(81, 165, 42);
+}
+.oito {
+  background-color: rgb(35, 0, 163);
+}
+.nove {
+  background-color: rgb(241, 160, 54);
+}
+.dez {
+  background-color: rgb(223, 34, 34);
+}
+.onze {
+  background-color: rgb(9, 147, 189);
+}
+.doze {
+  background-color: rgb(119, 0, 119);
+}
+.treze {
+  background-color: rgb(206, 226, 23);
+}
+
+footer {
+  background-color: rgb(131, 132, 133);
 }
 footer > a {
-    width: inherit;
+  width: inherit;
 }
-section{
-     animation: aparecer 2s linear forwards;
-     animation-timeline: view() ;
-     animation-range:cover 0% cover 25% ;
+section,
+footer {
+  animation: aparecer 2s linear forwards;
+  animation-timeline: view();
+  animation-range: cover 10% cover 25%;
 }
 
 @keyframes aparecer {
-    from{
-        transform: translateX(-120%);
-        
-        
-    }
-    to{
-        transform: translateX(0);
-        
-        
-    }
-    
-} 
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(5%);
+  }
+}
