@@ -161,8 +161,7 @@ footer {
 footer > a {
   width: inherit;
 }
-section,
-footer {
+section {
   animation: aparecer 2s linear forwards;
   animation-timeline: view();
   animation-range: cover 10% cover 25%;
