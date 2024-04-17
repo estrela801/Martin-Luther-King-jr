@@ -155,11 +155,16 @@ footer:hover {
   background-color: rgb(206, 226, 23);
 }
 
-footer {
+.quatorze {
   background-color: rgb(131, 132, 133);
+  margin-bottom: 300px;
+ border-radius: 10px;
+ max-width: 350px;
+  /* margin: 10px 30px; */
 }
-footer > a {
+.quatorze > a {
   width: inherit;
+
 }
 section {
   animation: aparecer 2s linear forwards;
