@@ -3,21 +3,19 @@
   scroll-behavior: smooth;
 }
 body {
-  /* background-color: rgb(38, 69, 109); */
-  background-color: rgb(68, 28, 28);
+  background-color: rgb(38, 69, 109);
+  /* background-color: rgb(68, 28, 28); */
   margin: 10px;
-  background-image: src(
-    "https://imgs.search.brave.com/iphYOGnOdX8y2TiktOnOSTQCEjbIwKuSC7BYLSiB8Mo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubXVuZG9lZHVj/YWNhby51b2wuY29t/LmJyL211bmRvZWR1/Y2FjYW8vMjAyMS8w/MS9tYXJ0aW4tbHV0/aGVyLmpwZw"
-  );
   font-family: "Tilt Neon", sans-serif;
   color: rgb(255, 255, 255);
 
   text-align: center;
-  /* text-align: center; */
+ 
 }
 
 .fundo {
-  background-color: rgb(68, 28, 28);
+  background-color: rgb(38, 69, 109);
+  /* background-color: rgb(68, 28, 28); */
   width: 100%;
 }
 
@@ -199,5 +197,14 @@ section {
   }
   to {
     transform: translateX(5%);
+  }
+}
+
+
+@media (min-width: 8000px) and (max-width: 200px){
+
+  section{
+    width: 400px;
+    height: 100px;
   }
 }
